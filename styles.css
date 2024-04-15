@@ -1,0 +1,48 @@
+body {
+    background-color: blanchedalmond;
+    font-family:sans-serif ;
+}
+
+.inputValueCSS {
+    border-radius: 6px;
+   border: none;
+   font-size: 12vh;
+   width: 30vw;
+   height: 15vh;
+   background-color:tan;
+   display: flex;
+   margin-left: auto;
+    margin-right: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+.fromValueCSS {
+    margin-left: 35vw;
+    text-align: center;
+
+}
+
+.toValueCSS {
+    margin-left: 8vw;
+    text-align: center;  
+
+}
+
+.submitValueCSS {
+    border-radius: 3px;
+    background-color: tan;
+    margin-left: 46vw;
+    width: 8vw;
+    height: 4vh;
+    font-size: medium;
+}
+
+.displayValueCSS {
+    border-bottom: 3px tan;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

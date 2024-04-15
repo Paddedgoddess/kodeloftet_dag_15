@@ -14,10 +14,10 @@ console.log(displayValue);
 displayValue.textContent = inputValue;
 
 const fromValue = document.querySelector("#fromValue").value;
-console.log(fromValue)
+console.log(fromValue);
 
 const toValue = document.querySelector("#toValue").value;
-console.log(toValue)
+console.log(toValue);
 
 let result;
 
@@ -39,12 +39,13 @@ else if (fromValue === "KM" & toValue === "CM") {
     result = inputValue * 100000;
 }
 else if (fromValue === "KM" & toValue === "M") {
-   result = inputValue * 1000 
+   result = inputValue * 1000; 
 }
 else {
     console.log("Please choose two different options.");
 }
 
 displayValue.textContent = result;
+console.log(result);
 });
 

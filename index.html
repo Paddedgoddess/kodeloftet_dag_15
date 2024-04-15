@@ -15,35 +15,39 @@
        <!--  <script defer src="script2.js"></script> -->
   </head>
   <body>
+
   <form>
-<input id="inputValue" type="text">
+    <label class="fromValueCSS" for="fromValue">Konverter fra  
+    <select name="fromValue" id="fromValue">
+      <option value="CM">CM</option>
+      <option value="M">M</option>
+      <option value="KM">KM</option>
+    </select>
+  </label>
+
+
+  <label class="toValueCSS" for="toValue">Konverter til     </label>
+    <select name="toValue" id="toValue">
+      <option value="CM">CM</option>
+      <option value="M">M</option>
+      <option value="KM">KM</option>
+    </select>
+
+  
+<input class="inputValueCSS" id="inputValue" type="text">
 
     
 
-    <label for="fromValue">Konverter fra
-    <select name="fromValue" id="fromValue">
-      <option value="">CM</option>
-      <option value="">M</option>
-      <option value="">KM</option>
-    </select>
-  </label>
+    
 
-
-  <label for="toValue">Konverter til
-    <select name="toValue" id="toValue">
-      <option value="">CM</option>
-      <option value="">M</option>
-      <option value="">KM</option>
-    </select>
-  </label>
 
   </form>
 
-  <button id="submitValue">
+  <button class="submitValueCSS" id="submitValue">
     Konverter
   </button>
 
-<p id="displayValue"></p>
+<p class="displayValueCSS" id="displayValue"></p>
 
     <main>
 
